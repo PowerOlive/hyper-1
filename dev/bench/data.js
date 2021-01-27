@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1611713547369,
+  "lastUpdate": 1611714261660,
   "repoUrl": "https://github.com/PowerOlive/hyper-1",
   "entries": {
     "pipeline": [
@@ -29,6 +29,36 @@ window.BENCHMARK_DATA = {
             "name": "hello_world_16",
             "value": 44899,
             "range": "± 3749",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "inikulin@cloudflare.com",
+            "name": "Ivan Nikulin",
+            "username": "inikulin"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2c8121f1735aa8efeb0d5e4ef595363c373ba470",
+          "message": "fix(client): HTTP/1 client \"Transfer-Encoding\" repair code would panic (#2410)\n\nCloses #2409",
+          "timestamp": "2021-01-26T10:36:58-08:00",
+          "tree_id": "774a20785cfcebc335095bbd9f4c823305ac5cd4",
+          "url": "https://github.com/PowerOlive/hyper-1/commit/2c8121f1735aa8efeb0d5e4ef595363c373ba470"
+        },
+        "date": 1611714257913,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "hello_world_16",
+            "value": 47909,
+            "range": "± 2074",
             "unit": "ns/iter"
           }
         ]
