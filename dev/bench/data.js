@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1611888092900,
+  "lastUpdate": 1611888673677,
   "repoUrl": "https://github.com/PowerOlive/hyper-1",
   "entries": {
     "pipeline": [
@@ -59,6 +59,36 @@ window.BENCHMARK_DATA = {
             "name": "hello_world_16",
             "value": 47909,
             "range": "± 2074",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jplatte+git@posteo.de",
+            "name": "Jonas Platte",
+            "username": "jplatte"
+          },
+          "committer": {
+            "email": "sean@seanmonstar.com",
+            "name": "Sean McArthur",
+            "username": "seanmonstar"
+          },
+          "distinct": true,
+          "id": "43412a950f2052e7865eb596c1d39067b2002a94",
+          "message": "refactor(lib): Switch from pin-project to pin-project-lite",
+          "timestamp": "2021-01-28T14:09:53-08:00",
+          "tree_id": "f8f20dc86e8ecfa06a44b844b7c9c04a6e940a29",
+          "url": "https://github.com/PowerOlive/hyper-1/commit/43412a950f2052e7865eb596c1d39067b2002a94"
+        },
+        "date": 1611888669851,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "hello_world_16",
+            "value": 49595,
+            "range": "± 5867",
             "unit": "ns/iter"
           }
         ]
