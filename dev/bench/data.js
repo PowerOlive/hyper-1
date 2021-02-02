@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1612303037288,
+  "lastUpdate": 1612303118120,
   "repoUrl": "https://github.com/PowerOlive/hyper-1",
   "entries": {
     "pipeline": [
@@ -89,6 +89,36 @@ window.BENCHMARK_DATA = {
             "name": "hello_world_16",
             "value": 49595,
             "range": "± 5867",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vorner@vorner.cz",
+            "name": "Michal 'vorner' Vaner",
+            "username": "vorner"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5e8238c1b8d6351d42546a4423cf5598def1c35e",
+          "message": "docs(body): warn about no length check in aggregate (#2415)\n\nThe to_bytes and aggregate don't check how long the body is, so the user\r\nbetter be aware.\r\n\r\nRelates to #2414.",
+          "timestamp": "2021-02-02T09:34:40-08:00",
+          "tree_id": "90f28099da0218b4f91839d4ca57aa5a3165f7b8",
+          "url": "https://github.com/PowerOlive/hyper-1/commit/5e8238c1b8d6351d42546a4423cf5598def1c35e"
+        },
+        "date": 1612303114176,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "hello_world_16",
+            "value": 66286,
+            "range": "± 14365",
             "unit": "ns/iter"
           }
         ]
