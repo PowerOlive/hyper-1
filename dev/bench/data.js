@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1612645923521,
+  "lastUpdate": 1612646029883,
   "repoUrl": "https://github.com/PowerOlive/hyper-1",
   "entries": {
     "pipeline": [
@@ -149,6 +149,36 @@ window.BENCHMARK_DATA = {
             "name": "hello_world_16",
             "value": 47864,
             "range": "± 2139",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "te316e89@gmail.com",
+            "name": "Taiki Endo",
+            "username": "taiki-e"
+          },
+          "committer": {
+            "email": "sean@seanmonstar.com",
+            "name": "Sean McArthur",
+            "username": "seanmonstar"
+          },
+          "distinct": true,
+          "id": "dfa1bb291d71978820e8077be94c1d5837935bbc",
+          "message": "chore(ci): use --feature-powerset --depth 2 in features check",
+          "timestamp": "2021-02-06T07:36:04-08:00",
+          "tree_id": "f04ddfede071e40f67435154fd8726f257a4e024",
+          "url": "https://github.com/PowerOlive/hyper-1/commit/dfa1bb291d71978820e8077be94c1d5837935bbc"
+        },
+        "date": 1612646025837,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "hello_world_16",
+            "value": 62278,
+            "range": "± 8775",
             "unit": "ns/iter"
           }
         ]
