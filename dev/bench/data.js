@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1613785986270,
+  "lastUpdate": 1613786576055,
   "repoUrl": "https://github.com/PowerOlive/hyper-1",
   "entries": {
     "pipeline": [
@@ -1375,6 +1375,144 @@ window.BENCHMARK_DATA = {
             "name": "http2_req_100kb",
             "value": 116418,
             "range": "± 830",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "david.pdrsn@gmail.com",
+            "name": "David Pedersen",
+            "username": "davidpdrsn"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6efc1a1cce0abdd4e3263e7ea328ad49616d8050",
+          "message": "docs(server): add server example using `tower::make::Shared` (#2440)\n\n`tower` 0.4.5 introduced `Shared` which is a `MakeService` that produces\r\nservices by cloning an inner service. This works quite well with `hyper`\r\nif your service doesn't need the incoming connection and implements\r\n`Clone`.\r\n\r\nHowever that might not be entirely obvious so I thought it made sense to\r\nadd an example to the docs.\r\n\r\nI wasn't quite sure if the example should go in the server or service\r\nmodule docs but since there already is an example using\r\n`make_service_fn` in the server docs I opted to add it there. Let me\r\nknow if you'd rather have it somewhere else.",
+          "timestamp": "2021-02-19T13:50:43-08:00",
+          "tree_id": "6b933a218c948e3b2b4e3c4609e622016b6c7137",
+          "url": "https://github.com/PowerOlive/hyper-1/commit/6efc1a1cce0abdd4e3263e7ea328ad49616d8050"
+        },
+        "date": 1613786572185,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "http1_body_both_100kb",
+            "value": 73913,
+            "range": "± 6878",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http1_body_both_10mb",
+            "value": 7252280,
+            "range": "± 990613",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http1_get",
+            "value": 32734,
+            "range": "± 3895",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http1_parallel_x10_empty",
+            "value": 226106,
+            "range": "± 22559",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http1_parallel_x10_req_10kb_100_chunks",
+            "value": 52072032,
+            "range": "± 2521807",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http1_parallel_x10_req_10mb",
+            "value": 52847328,
+            "range": "± 2413148",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http1_parallel_x10_res_10mb",
+            "value": 55372834,
+            "range": "± 1532434",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http1_parallel_x10_res_1mb",
+            "value": 4260289,
+            "range": "± 617208",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http1_post",
+            "value": 37508,
+            "range": "± 4384",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_get",
+            "value": 58460,
+            "range": "± 5435",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_parallel_x10_empty",
+            "value": 188047,
+            "range": "± 27536",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_parallel_x10_req_10kb_100_chunks",
+            "value": 9908350,
+            "range": "± 9785191",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_parallel_x10_req_10kb_100_chunks_adaptive_window",
+            "value": 10074980,
+            "range": "± 10012546",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_parallel_x10_req_10kb_100_chunks_max_window",
+            "value": 9526807,
+            "range": "± 10403306",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_parallel_x10_req_10mb",
+            "value": 59217712,
+            "range": "± 5891346",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_parallel_x10_res_10mb",
+            "value": 76931321,
+            "range": "± 14609556",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_parallel_x10_res_1mb",
+            "value": 6117534,
+            "range": "± 1260130",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_post",
+            "value": 61868,
+            "range": "± 9428",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "http2_req_100kb",
+            "value": 119529,
+            "range": "± 15301",
             "unit": "ns/iter"
           }
         ]
