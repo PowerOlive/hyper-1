@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1615274402207,
+  "lastUpdate": 1615274926478,
   "repoUrl": "https://github.com/PowerOlive/hyper-1",
   "entries": {
     "pipeline": [
@@ -359,6 +359,36 @@ window.BENCHMARK_DATA = {
             "name": "hello_world_16",
             "value": 60348,
             "range": "± 9590",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "76654022+0x79756b69@users.noreply.github.com",
+            "name": "0x79756b69",
+            "username": "0x79756b69"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "34085afef66b453dfee1c561e6683546bf4600c8",
+          "message": "docs(examples): use hyper v0.14 and full feature (#2451)",
+          "timestamp": "2021-03-08T14:19:24-08:00",
+          "tree_id": "67d588d032acb77655c972fa0622805749a364a2",
+          "url": "https://github.com/PowerOlive/hyper-1/commit/34085afef66b453dfee1c561e6683546bf4600c8"
+        },
+        "date": 1615274922015,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "hello_world_16",
+            "value": 70425,
+            "range": "± 36014",
             "unit": "ns/iter"
           }
         ]
