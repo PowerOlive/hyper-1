@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1615442678394,
+  "lastUpdate": 1615443315445,
   "repoUrl": "https://github.com/PowerOlive/hyper-1",
   "entries": {
     "pipeline": [
@@ -2715,6 +2715,36 @@ window.BENCHMARK_DATA = {
             "name": "http_connector",
             "value": 69338,
             "range": "± 15385",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "346512016@qq.com",
+            "name": "kolapapa",
+            "username": "kolapapa"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "297a068454115e8d5426f9051398d851f69235bf",
+          "message": "docs(examples): upgrade tokio version (#2456)",
+          "timestamp": "2021-03-10T10:00:39-08:00",
+          "tree_id": "98004bc3096176316ed6534e6e96eda3d08cb825",
+          "url": "https://github.com/PowerOlive/hyper-1/commit/297a068454115e8d5426f9051398d851f69235bf"
+        },
+        "date": 1615443311150,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "http_connector",
+            "value": 65536,
+            "range": "± 6287",
             "unit": "ns/iter"
           }
         ]
