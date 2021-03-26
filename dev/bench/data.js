@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1616742367840,
+  "lastUpdate": 1616743012943,
   "repoUrl": "https://github.com/PowerOlive/hyper-1",
   "entries": {
     "pipeline": [
@@ -509,6 +509,36 @@ window.BENCHMARK_DATA = {
             "name": "hello_world_16",
             "value": 67239,
             "range": "± 8886",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vagelis.prokopiou@gmail.com",
+            "name": "Vagelis Prokopiou",
+            "username": "Vagelis-Prokopiou"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "51ed71b0a6e1d90d324f87151434334bab6fb837",
+          "message": "docs(client): use Method::POST to match the example in https://hyper.rs/guides/client/advanced/ (#2479)",
+          "timestamp": "2021-03-25T13:34:03-07:00",
+          "tree_id": "908a1fb4a47378d16439458035a25a2dd41c1516",
+          "url": "https://github.com/PowerOlive/hyper-1/commit/51ed71b0a6e1d90d324f87151434334bab6fb837"
+        },
+        "date": 1616743008119,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "hello_world_16",
+            "value": 56773,
+            "range": "± 10600",
             "unit": "ns/iter"
           }
         ]
