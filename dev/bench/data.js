@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1616743012943,
+  "lastUpdate": 1616823634685,
   "repoUrl": "https://github.com/PowerOlive/hyper-1",
   "entries": {
     "pipeline": [
@@ -3567,6 +3567,36 @@ window.BENCHMARK_DATA = {
             "name": "http_connector",
             "value": 43112,
             "range": "± 4349",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sean@seanmonstar.com",
+            "name": "Sean McArthur",
+            "username": "seanmonstar"
+          },
+          "committer": {
+            "email": "sean@seanmonstar.com",
+            "name": "Sean McArthur",
+            "username": "seanmonstar"
+          },
+          "distinct": true,
+          "id": "98e7e0bd15642cf9e4bf07b3b03d8b4e538623ba",
+          "message": "v0.14.5",
+          "timestamp": "2021-03-26T12:03:24-07:00",
+          "tree_id": "db5bad5201b0c92abc03652924d33f6cb080b9f1",
+          "url": "https://github.com/PowerOlive/hyper-1/commit/98e7e0bd15642cf9e4bf07b3b03d8b4e538623ba"
+        },
+        "date": 1616823630373,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "http_connector",
+            "value": 47153,
+            "range": "± 6069",
             "unit": "ns/iter"
           }
         ]
