@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1616828221235,
+  "lastUpdate": 1617769291811,
   "repoUrl": "https://github.com/PowerOlive/hyper-1",
   "entries": {
     "pipeline": [
@@ -3963,6 +3963,36 @@ window.BENCHMARK_DATA = {
             "name": "http_connector",
             "value": 64195,
             "range": "± 10956",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kevin@burke.dev",
+            "name": "Kevin Burke",
+            "username": "kevinburke"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aa4a2eaa44ce4eb8a0049e4363f59f323ed56854",
+          "message": "chore(LICENSE): update license year (#2491)",
+          "timestamp": "2021-04-06T14:49:37-07:00",
+          "tree_id": "b6f6db86e5b8ff78bec3e88897081599827b72bd",
+          "url": "https://github.com/PowerOlive/hyper-1/commit/aa4a2eaa44ce4eb8a0049e4363f59f323ed56854"
+        },
+        "date": 1617769287549,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "http_connector",
+            "value": 64596,
+            "range": "± 5612",
             "unit": "ns/iter"
           }
         ]
